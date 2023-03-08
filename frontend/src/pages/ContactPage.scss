@@ -1,0 +1,21 @@
+.page {
+    display: grid;
+    gap: 24px 0;
+    max-width: 1000px;
+
+    #contact_data {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 430px;
+        background-position: right center;
+    }
+}
+
+@media (min-width: 720px) {
+    .page {
+        margin: 0 auto;
+        background-color: #d6d5d0;
+        grid-template-columns: minmax(350px, 450px) minmax(350px, auto);
+    }
+}

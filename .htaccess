@@ -1,0 +1,12 @@
+###START MOD_REWRITE
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    RewriteRule ^api(/.*)?$ server/index.php [L,END]
+    RewriteRule ^static(/.+)$ frontend/build/static$1 [L,END]
+    RewriteRule ^images(/.+)$ frontend/build/images$1 [L,END]
+    RewriteRule ^$ frontend/build/index.html [L,END]
+
+</IfModule>
+###END MOD_REWRITE
