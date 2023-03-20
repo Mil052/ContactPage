@@ -7,9 +7,9 @@ To prepare a Map I used Maps Static API from Google Maps.
 Frontend part is buid in React.
 Backend is build in PHP. To serve e-mails I have used PHPMailer Library.
 ## How to run the code:
-* Download the code and instal dependencies 
-    ** In "/frontend" directory run: `npm install`.
-    ** In "/server" directory run: `composer update`.
+* Download the code and instal dependencies\ 
+  - In "/frontend" directory run: `npm install`.
+  - In "/server" directory run: `composer update`.
 * Provide authentication Data for Your SMTP server in "/server/MailHandler/MailConfig.php"
 * Provide your own Google Maps API Key in "/frontend/src/components/MapComponent/GoogleMap.js" 
 * Create frontend production build (in "/frontend" directory run: `npm run build`).
