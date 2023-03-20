@@ -16,4 +16,4 @@ Backend is build in PHP. To serve e-mails I have used PHPMailer Library.
 * To run this app locally you will need a server with PHP (I have been using XAMPP). Set this project folder as the document root of your server (in server configuration file).\
 
 You can also see the working app here:\
-https://mgwebdevelopment.000webhostapp.com/contact/
+https://mgwebdevelopment.000webhostapp.com/contact
